@@ -9,6 +9,7 @@ from email.mime.text import MIMEText
 def send_email(to, subject, body):
     """Send an email."""
     # Email configuration
+    # sender_email = 'aimo.woima@gmail.com' 
     sender_email = 'your_email@example.com'  # Update with your email
     password = 'your_password'  # Update with your password
 
